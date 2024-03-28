@@ -1,0 +1,85 @@
+body {
+    margin: 0 112px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    padding: 24px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width:240px;
+}
+.logo img{
+    width: 100%;
+}
+
+
+ .social-icons {
+    color: #111827;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+.social-icons a{
+    color: #111827;
+}
+
+.button {
+    background-color: #111827;
+    color: #fff;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.hero {
+    justify-content: center;
+    padding-top: 112px;
+    display: flex;
+    flex-direction: column;
+
+}
+.hero h1{
+    font-size: 64px;
+    color: #111827;
+    text-align: center;
+}
+.hero p{
+    font-size: 16px;
+    color: #4B5563;
+    text-align: center;
+    width: 768px;
+    margin: -20px auto 24px;
+}
+.HeroButtons{
+    padding: 24px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+}
+.ViewProjects{
+    background-color: #7375FD;
+    color: #fff;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 172px;
+}
+.GetInTouch{
+    background-color: white;
+    color: #111827;
+    padding: 16px 20px;
+    border: 1px solid #111827;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 172px;
+}
