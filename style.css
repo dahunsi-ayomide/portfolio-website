@@ -1,171 +1,288 @@
 body {
-    
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 header {
-    margin: 0 112px;
-    background-color: #fff;
-    padding: 24px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin: 0 112px;
+  background-color: #fff;
+  padding: 24px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-    width:240px;
+  width: 240px;
 }
-.logo img{
-    width: 100%;
+.logo img {
+  width: 100%;
 }
 
-
- .social-icons {
-    color: #111827;
-    text-decoration: none;
-    margin: 0 10px;
-    padding: 5px 10px;
-    display: flex;
-    gap: 2rem;
-    list-style: none;
+.social-icons {
+  color: #111827;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 5px 10px;
+  display: flex;
+  gap: 2rem;
+  list-style: none;
 }
-.social-icons a{
-    color: #111827;
+.social-icons a {
+  color: #111827;
 }
 
 .button {
-    background-color: #111827;
-    color: #fff;
-    padding: 16px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    width: 240px;
+  background-color: #111827;
+  color: #fff;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 240px;
 }
 .hero {
-    margin: 0 112px;
-    justify-content: center;
-    padding-top: 112px;
-    display: flex;
-    flex-direction: column;
-    padding: 112px;
+  margin: 0 112px;
+  justify-content: center;
+  padding-top: 112px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  height: 50vh;
+}
+.hero h1 {
+  font-size: 64px;
+  color: #111827;
+  text-align: center;
+}
+.hero p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4b5563;
+  text-align: center;
+  width: 768px;
+  margin: -20px auto 24px;
+}
+.HeroButtons {
+  padding: 24px;
+  margin: 0 auto;
+  display: flex;
+  gap: 24px;
+}
+.ViewProjects {
+  background-color: #7375fd;
+  color: #fff;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 172px;
+}
+.GetInTouch {
+  background-color: white;
+  color: #111827;
+  padding: 16px 20px;
+  border: 1px solid #111827;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 172px;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f9fafb;
+  padding: 56px 56px;
+  align-items: center;
+}
 
+.services h1 {
+  font-size: 40px;
+  color: #111827;
+  text-align: center;
+  width: 720px;
 }
-.hero h1{
-    font-size: 64px;
-    color: #111827;
-    text-align: center;
+.ServiceRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 56px;
+  gap: 40px;
 }
-.hero p{
-    font-size: 16px;
-    line-height: 24px;
-    color: #4B5563;
-    text-align: center;
-    width: 768px;
-    margin: -20px auto 24px;
+.ServiceCard {
+  width: 280px;
+  height: 284px;
 }
-.HeroButtons{
-    padding: 24px;
-    margin: 0 auto;
-    display: flex;
-    gap: 24px;
+.CardIcon {
+  width: 64px;
+  height: 64px;
 }
-.ViewProjects{
-    background-color: #7375FD;
-    color: #fff;
-    padding: 16px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    width: 172px;
-}
-.GetInTouch{
-    background-color: white;
-    color: #111827;
-    padding: 16px 20px;
-    border: 1px solid #111827;
-    border-radius: 8px;
-    cursor: pointer;
-    width: 172px;
-}
-.services{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #F9FAFB;
-    padding: 56px 56px;
-    align-items: center;
-}
-
-.services h1{
-    font-size: 40px;
-    color: #111827;
-    text-align: center;
-    width: 720px;
-}
-.ServiceRow{
-    display: flex;
-    justify-content: space-between;
-    margin: 56px;
-    gap: 40px;
-}
-.ServiceCard{
-    width: 280px;
-    height: 284px;
-}
-.CardIcon{
-    width: 64px;
-    height: 64px;
-}
-.CardIcon img{
-    width: 100%;
-    height: 100%;
+.CardIcon img {
+  width: 100%;
+  height: 100%;
 }
 .ServiceCard p {
-        font-size: 16px;
-        line-height: 24px;
-        color: #4B5563;
-        margin: -8px auto 8px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4b5563;
+  margin: -8px auto 8px;
 }
 .ServiceCard h1 {
-    font-size: 20px;
-    line-height: 32px;
-    color: #111827;
-    margin: 0px auto 8px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #111827;
+  margin: 0px auto 8px;
 }
 .fa-solid fa-circle-check {
-    margin-left: 10px;
-    color: #7375FD;
-  }
-
-  .skills{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #Ffff;
-    padding-top:56px;
-    padding-bottom:112px ;
-    align-items: center;
+  margin-left: 10px;
+  color: #7375fd;
 }
-.skills h1{
-    font-size: 40px;
-    color: #111827;
-    text-align: center;
-    width: 720px;
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffff;
+  padding-top: 56px;
+  padding-bottom: 112px;
+  align-items: center;
+}
+.skills h1 {
+  font-size: 40px;
+  color: #111827;
+  text-align: center;
+  width: 720px;
 }
 .SkillItems {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    max-width: 862px;
-    align-items: center;
-    justify-content: center;
-    color: #4B5563;
-    
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 862px;
+  align-items: center;
+  justify-content: center;
+  color: #4b5563;
 }
 
 .SkillItems .fa-circle-check {
-    color: #7375FD;
-    margin-left:8px ;
+  color: #7375fd;
+  margin-left: 8px;
 }
 
+.Projects {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  background-color: #f3f4f6;
+  align-items: center;
+  padding: 64px;
+}
+.Projects h1 {
+  font-size: 40px;
+  color: #111827;
+  text-align: center;
+  width: 720px;
+}
+.ProjectsRow {
+  display: flex;
+  gap: 56px;
+}
+.ProjectCard {
+  display: flex;
+  flex-direction: column;
+  width: 343px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid #e5e7eb;
+}
+.ProjectImg img {
+  width: 100%;
+  height: 233px;
+  border-radius: 12px;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+}
+.tags p {
+  font-size: 14px;
+  color: #4b5563;
+  border: 1px solid #9b9dfd;
+  padding: 8px 16px;
+  border-radius: 24px;
+  width: auto;
+}
+.ProjectText h4 {
+  margin-bottom: 0px;
+  margin-top: 8px;
+  font-size: 20px;
+  color: #111827;
+}
+.ProjectText p {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4b5563;
+}
+.ProjectButton {
+  background-color: #7375fd;
+  color: #fff;
+  padding: 16px 20px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+  width: 100%;
+  gap: 12px;
+}
+
+.image-scroll-container {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+    margin: 64px auto; 
+    
+}
+.image-scroll-container::before,
+.image-scroll-container::after {
+    content: "";
+    height: 100%;
+    width: 3%;
+    position: absolute;
+    z-index: 3;
+}
+
+.image-scroll-container::before {
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, rgba(255, 255, 255), rgba(75, 85, 99, 0)); 
+}
+
+.image-scroll-container::after {
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(to left, rgba(255, 255, 255), rgba(75, 85, 99, 0));
+}
+
+.image-scroll-container img {
+  margin: 0px 64px;
+  width: 720px;
+  position: relative;
+  display: inline-block; 
+  height: 377px;
+  animation: scroll 12s linear infinite; 
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(
+      -200%
+    ); 
+  }
+}
